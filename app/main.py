@@ -1,10 +1,10 @@
 from flask import Flask, request, render_template, jsonify
 
-app = Flask(__name__, template_folder="templates")
+app = Flask(__name__, template_folder="ui")
 
 @app.route("/")
 def home():
-    pass
+    return render_template("index.html")
 
 @app.route("/upload_pdf", methods=["POST"])
 def upload_pdf():
