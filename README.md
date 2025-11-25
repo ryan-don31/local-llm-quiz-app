@@ -27,5 +27,7 @@ llm-pdf-quiz-generator/
 ├── requirements.txt
 ├── .env.example
 └── run.sh
-
 ```
+
+ollama version: `llama3.1:8b`
+changed this to `llama3.2:3b`, smaller etc
