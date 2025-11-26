@@ -1,0 +1,21 @@
+{"endpoint": "/upload_pdf", "timestamp": 1764130171.8182468, "latency_s": 9.07517209998332, "pathway": "ingest", "file_size": 737899}
+{"endpoint": "/generate_quiz", "timestamp": 1764130202.1934276, "latency_s": 14.888154500018572, "pathway": "RAG", "top_k": 4, "topic": "Test review"}
+{"endpoint": "/generate_quiz", "timestamp": 1764130272.051612, "latency_s": 6.933907900005579, "pathway": "RAG", "top_k": 4, "topic": "Test review"}
+{"endpoint": "/generate_quiz", "timestamp": 1764130316.8433487, "latency_s": 6.2653706000128295, "pathway": "RAG", "top_k": 4, "topic": "Test review"}
+{"endpoint": "/upload_pdf", "timestamp": 1764130433.859691, "latency_s": 7.798536799993599, "pathway": "ingest", "file_size": 737899}
+{"endpoint": "/generate_quiz", "timestamp": 1764130453.8051765, "latency_s": 4.769318300008308, "pathway": "RAG", "top_k": 2, "topic": "Test review"}
+{"endpoint": "/generate_quiz", "timestamp": 1764130487.2837675, "latency_s": 4.537378600012744, "pathway": "RAG", "top_k": 2, "topic": "Test review"}
+{"endpoint": "/upload_pdf", "timestamp": 1764130511.3502603, "latency_s": 7.771581000008155, "pathway": "ingest", "file_size": 737899}
+{"endpoint": "/generate_quiz", "timestamp": 1764130526.1413138, "latency_s": 9.741616299987072, "pathway": "RAG", "top_k": 4, "topic": "Test Review"}
+{"endpoint": "/upload_pdf", "timestamp": 1764131076.598467, "latency_s": 9.017482199997175, "pathway": "ingest", "file_size": 737899}
+{"endpoint": "/generate_quiz", "timestamp": 1764131117.6843748, "latency_s": 15.371982199983904, "pathway": "RAG", "top_k": 4, "topic": "Test review"}
+{"endpoint": "/upload_pdf", "timestamp": 1764131619.983655, "latency_s": 9.067711499985307, "pathway": "ingest", "file_size": 737899}
+{"endpoint": "/generate_quiz", "timestamp": 1764131643.529115, "latency_s": 16.395138099993346, "pathway": "RAG", "top_k": 4, "topic": "Test review"}
+{"endpoint": "/upload_pdf", "timestamp": 1764132133.275289, "latency_s": 8.974504099984188, "pathway": "ingest", "file_size": 737899}
+{"endpoint": "/generate_quiz", "timestamp": 1764132166.9545271, "latency_s": 16.421763200021815, "pathway": "RAG", "top_k": 4, "topic": "Test review"}
+{"endpoint": "/upload_pdf", "timestamp": 1764132201.6635725, "latency_s": 8.042300600005547, "pathway": "ingest", "file_size": 737899}
+{"endpoint": "/generate_quiz", "timestamp": 1764132209.8479133, "latency_s": 5.673255199973937, "pathway": "RAG", "top_k": 4, "topic": "Test review"}
+{"endpoint": "/generate_quiz", "timestamp": 1764132235.8027892, "latency_s": 5.269855699996697, "pathway": "RAG", "top_k": 4, "topic": "Test review"}
+{"endpoint": "/upload_pdf", "timestamp": 1764132584.7860756, "latency_s": 9.174308199988445, "pathway": "ingest", "file_size": 737899}
+{"endpoint": "/generate_quiz", "timestamp": 1764132606.695047, "latency_s": 15.194972600002075, "pathway": "RAG", "top_k": 4, "topic": "Test Review"}
+{"endpoint": "/generate_quiz", "timestamp": 1764132643.386873, "latency_s": 6.153474499995355, "pathway": "RAG", "top_k": 4, "topic": "Test Review"}

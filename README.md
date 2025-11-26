@@ -26,7 +26,6 @@ llm-pdf-quiz-generator/
 ├── README.md
 ├── requirements.txt
 ├── .env.example
-└── run.sh
 ```
 
 ollama version: `llama3.1:8b`
