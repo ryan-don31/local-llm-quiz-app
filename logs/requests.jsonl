@@ -27,3 +27,9 @@
 {"endpoint": "/generate_quiz", "timestamp": 1764360277.648681, "latency_s": 80.87635019997833, "pathway": "RAG", "top_k": 3, "topic": "Graphics Midterm"}
 {"endpoint": "/upload_pdf", "timestamp": 1764731761.9848773, "latency_s": 3.69270440004766, "pathway": "ingest", "file_size": 231666}
 {"endpoint": "/generate_quiz", "timestamp": 1764731854.0770018, "latency_s": 79.72461429995019, "pathway": "RAG", "top_k": 4, "topic": "Computer Graphics Midterm"}
+{"endpoint": "/upload_pdf", "timestamp": 1764736008.1376822, "latency_s": 9.39800919999999, "pathway": "ingest", "file_size": 1421044}
+{"endpoint": "/generate_quiz", "timestamp": 1764736036.551078, "latency_s": 15.687256900000023, "pathway": "RAG", "top_k": 4, "topic": "OpenGL midterm preparation"}
+{"endpoint": "/generate_quiz", "timestamp": 1764736049.7483945, "latency_s": 4.534731500000021, "pathway": "RAG", "top_k": 4, "topic": "OpenGL midterm preparation"}
+{"endpoint": "/upload_pdf", "timestamp": 1764736285.5964644, "latency_s": 8.174463500000002, "pathway": "ingest", "file_size": 1421044}
+{"endpoint": "/generate_quiz", "timestamp": 1764736345.5523279, "latency_s": 10.996003599999995, "pathway": "RAG", "top_k": 4, "topic": "Graphics exam preparation"}
+{"endpoint": "/generate_quiz", "timestamp": 1764736380.9893615, "latency_s": 4.258959199999936, "pathway": "RAG", "top_k": 4, "topic": "Graphics exam preparation"}
