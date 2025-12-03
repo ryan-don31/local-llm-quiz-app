@@ -9,7 +9,9 @@ CSCI 4440U
 
 ---
 
-This app uses a local Ollama model to generate quizzes based off an uploaded PDF. There are safety measures for malicious use of the LLM, testing for the responses, and logging for the requests. This was a fun little project to make, and [].
+This app uses a local Ollama model to generate quizzes based off an uploaded PDF. There are safety measures for malicious use of the LLM, testing for the responses, and logging for the requests.
+
+https://youtu.be/MxfsyZXbWKY
 
 ![App Homepage](./screenshots/app1.PNG)
 

@@ -16,6 +16,7 @@ def home():
     return render_template("index.html")
 
 
+
 @app.route("/upload_pdf", methods=["POST"])
 def upload_pdf():
     if "pdf" not in request.files:
