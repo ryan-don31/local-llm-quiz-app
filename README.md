@@ -91,3 +91,10 @@ Requests are logged to the `/logs` directory, to the `requests.jsonl` file. Here
 
 ## Offline Eval
 
+There are tests to evaluate nearly everything used in this project. You should try running them, it's super cool.
+
+Running the tests:
+```Shell
+cd local-llm-quiz-app   # Again, make sure you're in root. Not in /test/
+python -m tests.run_tests
+```
