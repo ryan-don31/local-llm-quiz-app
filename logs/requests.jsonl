@@ -19,3 +19,11 @@
 {"endpoint": "/upload_pdf", "timestamp": 1764132584.7860756, "latency_s": 9.174308199988445, "pathway": "ingest", "file_size": 737899}
 {"endpoint": "/generate_quiz", "timestamp": 1764132606.695047, "latency_s": 15.194972600002075, "pathway": "RAG", "top_k": 4, "topic": "Test Review"}
 {"endpoint": "/generate_quiz", "timestamp": 1764132643.386873, "latency_s": 6.153474499995355, "pathway": "RAG", "top_k": 4, "topic": "Test Review"}
+{"endpoint": "/upload_pdf", "timestamp": 1764355966.4554605, "latency_s": 16.331839099992067, "pathway": "ingest", "file_size": 228661}
+{"endpoint": "/generate_quiz", "timestamp": 1764357413.1359544, "latency_s": 1398.8822216000408, "pathway": "RAG", "top_k": 11, "topic": "Racism in BC healthcare"}
+{"endpoint": "/upload_pdf", "timestamp": 1764357515.6845, "latency_s": 15.706356499984395, "pathway": "ingest", "file_size": 228661}
+{"endpoint": "/generate_quiz", "timestamp": 1764357658.2392511, "latency_s": 106.70390649995534, "pathway": "RAG", "top_k": 4, "topic": "Racism in healthcare"}
+{"endpoint": "/upload_pdf", "timestamp": 1764360113.1961622, "latency_s": 3.8540380999911577, "pathway": "ingest", "file_size": 231666}
+{"endpoint": "/generate_quiz", "timestamp": 1764360277.648681, "latency_s": 80.87635019997833, "pathway": "RAG", "top_k": 3, "topic": "Graphics Midterm"}
+{"endpoint": "/upload_pdf", "timestamp": 1764731761.9848773, "latency_s": 3.69270440004766, "pathway": "ingest", "file_size": 231666}
+{"endpoint": "/generate_quiz", "timestamp": 1764731854.0770018, "latency_s": 79.72461429995019, "pathway": "RAG", "top_k": 4, "topic": "Computer Graphics Midterm"}

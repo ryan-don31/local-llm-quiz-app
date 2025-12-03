@@ -22,11 +22,11 @@ def generate_quiz(context_chunks: List[Dict], topic: str, model: str = "llama3.2
     Returns a list of dicts: [{question, options, answer}]
     """
     
-    # 1. Construct the Context String
-    # We join the top retrieved chunks into a single block of text
+    # Construct the Context String
+    # join the top retrieved chunks into a single block of text
     context_text = "\n\n---\n\n".join([c["text"] for c in context_chunks])
     
-    # 2. Define the System Prompt
+    # Define the System Prompt
     # We explicitly tell the model strictly JSON format is required.
     system_prompt = (
         "You are a strict educational assistant. Your task is to generate a quiz based ONLY on the provided text context. "
@@ -40,14 +40,15 @@ def generate_quiz(context_chunks: List[Dict], topic: str, model: str = "llama3.2
         "\n}"
     )
 
-    # 3. Define the User Prompt
+    # Define the User Prompt
+    # Takes `topic` to ensure the questions stay on topic
     user_prompt = (
         f"Context:\n{context_text}\n\n"
         f"Task: Generate 3 multiple-choice questions about '{topic}' based on the context above."
     )
 
     try:
-        # 4. Call Ollama
+        # Call Ollama
         response = ollama.chat(model=model, messages=[
             {'role': 'system', 'content': system_prompt},
             {'role': 'user', 'content': user_prompt},
@@ -55,7 +56,7 @@ def generate_quiz(context_chunks: List[Dict], topic: str, model: str = "llama3.2
         
         content = response['message']['content']
         
-        # 5. Parse JSON
+        # Parse JSON
         cleaned_json_str = _clean_json_response(content)
         quiz_data = json.loads(cleaned_json_str)
         

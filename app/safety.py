@@ -6,11 +6,11 @@ def check_input_safety(text: str, max_length: int = 1000) -> tuple[bool, str]:
     if not text:
         return False, "Input is empty."
 
-    # 1. Length Guard
+    # Length Guard
     if len(text) > max_length:
         return False, f"Input exceeds maximum length of {max_length} characters."
 
-    # 2. Prompt Injection Guard (Basic)
+    # Prompt Injection Guard (Basic)
     # Checks for common attempts to override system instructions.
     forbidden_phrases = [
         "ignore previous instructions",

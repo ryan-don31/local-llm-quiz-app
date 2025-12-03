@@ -33,11 +33,11 @@ def upload_pdf():
         pdf_file.save(tmp.name)
         tmp.close()
 
-        # 1. Extract Text
+        # Extract Text
         extracted = extract_text_from_file(tmp.name)
         full_text = extracted.get("text", "")
 
-        # 2. Ingest into Vector DB (RAG)
+        # Ingest into Vector DB (RAG)
         # We clear the index first to ensure the quiz is only about THIS PDF.
         # In a multi-user app, you'd handle user IDs, but for this assignment, 
         # resetting per upload is safer/cleaner.
@@ -77,7 +77,7 @@ def generate_quiz_route():
     topic = data.get("topic", "General Knowledge")
     top_k = int(data.get("top_k", 4))
 
-    # 1. Safety Check
+    # Safety Check
     ok, reason = check_input_safety(topic)
     if not ok:
         return jsonify({"error": "Input failed safety check", "reason": reason}), 400
@@ -86,7 +86,7 @@ def generate_quiz_route():
     pathway = "RAG"
 
     try:
-        # 2. Retrieve Context (RAG)
+        # Retrieve Context (RAG)
         retrieved_chunks = search(topic, top_k=top_k)
         
         # Fallback: if retrieval fails or finds nothing, user might be asking general questions
@@ -96,7 +96,7 @@ def generate_quiz_route():
             # We send empty context, LLM might hallucinate or refuse
             retrieved_chunks = []
 
-        # 3. Generate Quiz
+        # Generate Quiz
         quiz_json = generate_quiz(retrieved_chunks, topic=topic)
 
         latency = time.perf_counter() - start
